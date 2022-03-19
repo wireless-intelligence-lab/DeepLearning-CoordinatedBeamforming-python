@@ -9,17 +9,13 @@ The main script for generating the following figure.
 This script adopts the first version of the publicly available parameterized [DeepMIMO dataset](https://deepmimo.net/versions/v1/) published for deep learning applications in mmWave and massive MIMO systems. The ['O1_60'](https://deepmimo.net/scenarios/o1-scenario/) scenario is adopted for this figure.
 
 **To reproduce the results, please follow these steps:**
-1. Download DeepMIMOv2 dataset generation files (available on [this link](https://deepmimo.net/versions/v2-matlab/)) and the source data of the 'O1_60' scenario (available on [this link](https://deepmimo.net/scenarios/o1-scenario/)).
-2. Download the repository files. 
-3. Run the file named `Generate_DL_data.m` in MATLAB to generate the inputs/outputs of the deep learning model. 
-4. Run the file named `DL_model_python.py` to build, train, and test the deep learning model. This step requires Python 3.6, Keras, and Tensorflow.
-5. Run the file named `Generate_Figure.m` in MATLAB to process the deep learning outputs and generate the performance results/figures.
+1. Install DeepMIMO-python by `pip install DeepMIMO` (If not installed already)
+2. Download and extract the source data of the 'O1_60' scenario (available on [this link](https://deepmimo.net/scenarios/o1-scenario/)).
+3. Edit line 48 of the python script to set the folder where O1_60 dataset folder is contained.
+E.g., parameters['dataset_folder'] = r'C:\Users\xxx\Desktop\scenarios' 
+6. Run the python script. This step requires Python 3.7 and Tensorflow 2+.
 
-Note: For steps 3 and 5, add DeepMIMOv2 folder and subfolders to the MATLAB path. You can either
-- Right click on the DeepMIMOv2 folder on MATLAB explorer -> Add to Path -> Selected Folders and Subfolders.
-- Add a command to the beginning of the script: `addpath(genpath('deepmimov2_folder_directory'))`.
-
-If you have any questions regarding the code and used dataset, please contact [Ahmed Alkhateeb](https://www.aalkhateeb.net/).
+If you have any questions regarding the code and used dataset, please write to DeepMIMO dataset forum https://deepmimo.net/forum/ or contact [Ahmed Alkhateeb](https://www.aalkhateeb.net/).
 # License and Referencing
 This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). If you in any way use this code for research that results in publications, please cite our original article:
 
