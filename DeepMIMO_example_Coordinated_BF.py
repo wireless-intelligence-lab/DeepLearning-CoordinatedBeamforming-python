@@ -45,7 +45,7 @@ parameters = DeepMIMO.default_params()
 # # Change parameters for the setup
 # Scenario O1_60 extracted at the dataset_folder
 parameters['scenario'] = 'O1_60'
-parameters['dataset_folder'] = r'C:\Users\udemirha\Desktop\CBF-matlab\DeepMIMOv2\Raytracing_scenarios' # Set DeepMIMO dataset folder that has O1_60
+parameters['dataset_folder'] = r'C:\Users\xx\Desktop\scenarios' # Set DeepMIMO dataset folder that has O1_60
 
 parameters['num_paths'] = 5
 
