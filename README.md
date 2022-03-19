@@ -13,7 +13,7 @@ This script adopts the first version of the publicly available parameterized [De
 2. Download and extract the source data of the 'O1_60' scenario (available on [this link](https://deepmimo.net/scenarios/o1-scenario/)).
 3. Edit line 48 of the python script to set the folder where O1_60 dataset folder is contained.
 E.g., parameters['dataset_folder'] = r'C:\Users\xxx\Desktop\scenarios' 
-6. Run the python script. This step requires Python 3.7 and Tensorflow 2+.
+4. Run the python script. This step requires Python 3.7 and Tensorflow 2+.
 
 If you have any questions regarding the code and used dataset, please write to DeepMIMO dataset forum https://deepmimo.net/forum/ or contact [Ahmed Alkhateeb](https://www.aalkhateeb.net/).
 # License and Referencing
