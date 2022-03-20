@@ -9,7 +9,7 @@ The main script for generating the following figure.
 This script adopts the python version of the publicly available parameterized [DeepMIMO dataset](https://deepmimo.net/versions/v2-python/) published for deep learning applications in mmWave and massive MIMO systems. The ['O1_60'](https://deepmimo.net/scenarios/o1-scenario/) scenario is adopted for this figure.
 
 **To reproduce the results, please follow these steps:**
-1. Install DeepMIMO-python by `pip install DeepMIMO` (If not installed already)
+1. Install DeepMIMO-python by `pip install DeepMIMO` (If not already installed)
 2. Download and extract the source data of the 'O1_60' scenario (available on [this link](https://deepmimo.net/scenarios/o1-scenario/)).
 3. Edit line 48 of the python script to set the folder where O1_60 dataset folder is contained.
 E.g., parameters['dataset_folder'] = r'C:\Users\xxx\Desktop\scenarios' 
