@@ -6,7 +6,7 @@ Supporting high mobility in millimeter wave (mmWave) systems enables a wide rang
 # Code Package Content 
 The main script for generating the following figure.
 ![Figure7](https://github.com/WSLCL/DeepLearning-CoordinatedBeamforming/blob/master/Result_BF.png)
-This script adopts the first version of the publicly available parameterized [DeepMIMO dataset](https://deepmimo.net/versions/v1/) published for deep learning applications in mmWave and massive MIMO systems. The ['O1_60'](https://deepmimo.net/scenarios/o1-scenario/) scenario is adopted for this figure.
+This script adopts the python version of the publicly available parameterized [DeepMIMO dataset](https://deepmimo.net/versions/v2-python/) published for deep learning applications in mmWave and massive MIMO systems. The ['O1_60'](https://deepmimo.net/scenarios/o1-scenario/) scenario is adopted for this figure.
 
 **To reproduce the results, please follow these steps:**
 1. Install DeepMIMO-python by `pip install DeepMIMO` (If not installed already)
